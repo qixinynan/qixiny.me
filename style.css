@@ -13,7 +13,7 @@
   font-family: "Hiragino Sans GB",sans-serif;
   -webkit-text-size-adjust: 100%; /* 2 */
   /* background-color: #101010; */
-  color: #EAEAEC;
+
 }
 
 /* Sections
@@ -23,10 +23,11 @@
  * Remove the margin in all browsers.
  */
 
-body {
+.bg {
   background: linear-gradient(to bottom right, blue, pink);
   height: 100%;
   margin: 0;
+  color: #EAEAEC;
 }
 
 /**
@@ -488,4 +489,17 @@ template {
   text-decoration: none;
   font-weight: bolder;
   padding: 10px;
+}
+
+
+.appeal-btn {
+  color: white;
+  font-size: 20px;
+  background-color: #ff7300;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a {
+  color: rgb(255, 89, 0);
 }
